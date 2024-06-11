@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "rich-black": "#030303",
+        "dark-green": "#115944",
       },
       fontFamily: {
         Raleway: "Raleway",
@@ -20,6 +21,9 @@ module.exports = {
       boxShadow: {
         basecamp: "0px 12px 0px 0px #00000029",
         basecampHover: "4px 4px 52px 0px #00000029",
+      },
+      screens: {
+        xs: "425px",
       },
     },
   },

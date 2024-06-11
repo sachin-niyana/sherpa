@@ -1,6 +1,8 @@
+//---------------------------------------PAGE-LOGO----------------------------------------//
 export const Logo = () => {
   return (
     <svg
+      className="sm:w-[153px] sm:h-[116px] w-[100px] h-[90px]"
       width="153"
       height="116"
       viewBox="0 0 153 116"
@@ -22,9 +24,11 @@ export const Logo = () => {
     </svg>
   );
 };
+//--------------------------------------------BASECAMP-ICONS--------------------------------------//
 export const Privacy = () => {
   return (
     <svg
+      className="sm:w-16 sm:h-16 w-12 h-12"
       width="64"
       height="64"
       viewBox="0 0 64 64"
@@ -55,6 +59,7 @@ export const Privacy = () => {
 export const Assistance = () => {
   return (
     <svg
+      className="sm:w-16 sm:h-16 w-12 h-12"
       width="64"
       height="64"
       viewBox="0 0 64 64"
@@ -105,6 +110,7 @@ export const Assistance = () => {
 export const File = () => {
   return (
     <svg
+      className="sm:w-16 sm:h-16 w-12 h-12"
       width="64"
       height="64"
       viewBox="0 0 64 64"
@@ -143,6 +149,7 @@ export const File = () => {
 export const Attorney = () => {
   return (
     <svg
+      className="sm:w-16 sm:h-16 w-12 h-12"
       width="64"
       height="64"
       viewBox="0 0 64 64"
@@ -197,6 +204,7 @@ export const Attorney = () => {
 export const Insurance = () => {
   return (
     <svg
+      className="sm:w-16 sm:h-16 w-12 h-12"
       width="64"
       height="64"
       viewBox="0 0 64 64"
@@ -360,9 +368,11 @@ export const Insurance = () => {
     </svg>
   );
 };
+// ------------------------------------FOOTER-ICONS-------------------------------------------//
 export const Twitter = () => {
   return (
     <svg
+      className="sm:w-9 sm:h-9 w-8 h-8"
       width="37"
       height="37"
       viewBox="0 0 37 37"
@@ -386,6 +396,7 @@ export const Twitter = () => {
 export const Facebook = () => {
   return (
     <svg
+      className="sm:w-9 sm:h-9 w-8 h-8"
       width="37"
       height="37"
       viewBox="0 0 37 37"
@@ -409,6 +420,7 @@ export const Facebook = () => {
 export const Instagram = () => {
   return (
     <svg
+      className="sm:w-9 sm:h-9 w-8 h-8"
       width="37"
       height="37"
       viewBox="0 0 37 37"
@@ -432,6 +444,7 @@ export const Instagram = () => {
 export const Linkedin = () => {
   return (
     <svg
+      className="sm:w-9 sm:h-9 w-8 h-8"
       width="37"
       height="37"
       viewBox="0 0 37 37"
@@ -456,6 +469,26 @@ export const Linkedin = () => {
       <path
         d="M17.8398 18.5971V25.0238H20.7422V19.2191C20.7422 18.1825 21.3641 17.3533 22.4007 17.3533C23.4373 17.3533 24.0592 18.3898 24.0592 19.2191V25.0238H26.9615V18.5971C26.9615 17.3533 25.5104 14.6582 22.4007 14.6582C19.291 14.6582 17.8398 17.3533 17.8398 18.5971Z"
         fill="white"
+      />
+    </svg>
+  );
+};
+//----------------------------------------VIDEO-ICON-------------------------------------//
+
+export const Play = () => {
+  return (
+    <svg
+      className="sm:w-[60px] sm:h-[60px] w-12 h-12"
+      width="60"
+      height="60"
+      viewBox="0 0 60 60"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="60" height="60" rx="30" fill="white" />
+      <path
+        d="M41.9992 30.6002C42 30.8979 41.9216 31.1908 41.7718 31.4503C41.622 31.7098 41.4058 31.9271 41.1442 32.081L24.9352 41.7421C24.6619 41.9051 24.3489 41.9941 24.0286 41.9999C23.7082 42.0057 23.392 41.928 23.1127 41.7749C22.8361 41.6243 22.6057 41.4045 22.4451 41.1383C22.2846 40.872 22.1997 40.5689 22.1992 40.2601V20.9403C22.1997 20.6315 22.2846 20.3284 22.4451 20.0621C22.6057 19.7959 22.8361 19.5761 23.1127 19.4254C23.392 19.2724 23.7082 19.1947 24.0286 19.2005C24.3489 19.2063 24.6619 19.2953 24.9352 19.4583L41.1442 29.1194C41.4058 29.2733 41.622 29.4906 41.7718 29.7501C41.9216 30.0096 42 30.3025 41.9992 30.6002Z"
+        fill="#8F8F8F"
       />
     </svg>
   );
