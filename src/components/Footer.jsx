@@ -19,7 +19,11 @@ const Footer = () => {
           <div className="max-w-[1180px] mx-auto px-5 sm:pt-[67px] pt-12">
             <div className="flex md:flex-row flex-col gap-10">
               <div className="flex flex-col">
-                <Link to="/" className="flex justify-center md:justify-start">
+                <Link
+                  aria-label="Read more about Seminole tax hike"
+                  to="/"
+                  className="flex justify-center md:justify-start"
+                >
                   <Logo />
                 </Link>
                 <p className="font-Poppins font-normal sm:text-base text-sm text-white md:max-w-[500px] text-opacity-70 md:text-start text-center leading-sm pt-5">
@@ -35,46 +39,54 @@ const Footer = () => {
                   <p className="font-Poppins font-normal text-base text-white leading-sm">
                     Quick links
                   </p>
-                  {footerLinks.map((obj, index) => (
-                    <li
-                      key={index}
-                      className="flex flex-col list-none mt-4 opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white"
-                    >
-                      <Link
-                        to={obj.src}
-                        className="font-Poppins font-normal sm:text-base text-sm leading-sm"
+                  <ul>
+                    {footerLinks.map((obj, index) => (
+                      <li
+                        key={index}
+                        className="flex flex-col list-none sm:mt-4 mt-3 opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white"
                       >
-                        {obj.title}
-                      </Link>
-                    </li>
-                  ))}
+                        <Link
+                          aria-label="Read more about Seminole tax hike"
+                          to={obj.src}
+                          className="font-Poppins font-normal sm:text-base text-sm leading-sm"
+                        >
+                          {obj.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
                 <div className="flex flex-col w-[176px]">
                   <p className="font-Poppins font-normal text-base text-white leading-sm">
                     Legal
                   </p>
-                  <li className="mt-4 list-none opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white">
-                    <Link
-                      to="#condition"
-                      className="font-Poppins font-normal sm:text-base text-sm leading-sm"
-                    >
-                      Terms and Conditions
-                    </Link>
-                  </li>
-                  <li className="mt-4 list-none opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white">
-                    <Link
-                      to="#Privacy"
-                      className="font-Poppins font-normal sm:text-base text-sm leading-sm"
-                    >
-                      Privacy Polices
-                    </Link>
-                  </li>
+                  <ul>
+                    <li className="sm:mt-3.5 mt-2.5 list-none opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white">
+                      <Link
+                        aria-label="Read more about Seminole tax hike"
+                        to="#condition"
+                        className="font-Poppins font-normal sm:text-base text-sm leading-sm"
+                      >
+                        Terms and Conditions
+                      </Link>
+                    </li>
+                    <li className="sm:mt-4 mt-2.5 list-none opacity-70 hover:opacity-100 duration-300 transition-all ease-linear text-white">
+                      <Link
+                        aria-label="Read more about Seminole tax hike"
+                        to="#Privacy"
+                        className="font-Poppins font-normal sm:text-base text-sm leading-sm"
+                      >
+                        Privacy Polices
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
             <div className="flex md:justify-start justify-center gap-4 mt-8">
               {footerIcons.map((obj, index) => (
                 <Link
+                  aria-label="Read more about Seminole tax hike"
                   key={index}
                   to={obj.src}
                   target="_blank"
